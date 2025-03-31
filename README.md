@@ -12,6 +12,7 @@ This Terraform module creates an S3 bucket and a DynamoDB table to be used as a 
 
 ```hcl
 module "terraform_backend" {
-  source = "your-org/backend/aws"
+  source = "rayl15/backend/aws"
   region = "us-west-2"
 }
+```
