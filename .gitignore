@@ -1,0 +1,36 @@
+# Local .terraform directories
+**/.terraform/*
+!.terraform/*.hcl
+
+# Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Crash log files
+crash.log
+
+# Sensitive variable files
+*.tfvars
+*.tfvars.json
+
+# Backend-generated file
+remote_backend.hcl
+
+# Terraform plan output
+*.tfplan
+
+# Mac system files
+.DS_Store
+
+# Editor swap/backup files
+*.swp
+*.bak
+*.tmp
+
+# Ignore IDE/editor config
+.vscode/
+.idea/
+*.code-workspace
+
+# Ignore zip archives and artifacts
+*.zip
